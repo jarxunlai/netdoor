@@ -1,0 +1,9 @@
+[workspace]
+name = "netdoor"
+version = "0.1.0"
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[tasks]
+serve = "python3 scripts/serve.py"
+check = "python3 scripts/check_sites.py data/sites.json"

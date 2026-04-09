@@ -1,0 +1,5 @@
+.pixi/
+.superpowers/
+__pycache__/
+*.pyc
+.codex

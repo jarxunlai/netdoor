@@ -1,0 +1,20 @@
+[
+  {
+    "id": "bca",
+    "name": "BCA",
+    "url": "https://bca.jadelai.top",
+    "description": "生信分析站点"
+  },
+  {
+    "id": "doc",
+    "name": "DOC",
+    "url": "https://doc.jadelai.top",
+    "description": "文档中心"
+  },
+  {
+    "id": "animal",
+    "name": "ANIMAL",
+    "url": "https://animal.jadelai.top",
+    "description": "动物数据页"
+  }
+]

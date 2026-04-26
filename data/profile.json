@@ -1,0 +1,35 @@
+{
+  "name": "jarxuanlai",
+  "role": "临床医学在研研究生",
+  "bio": "在医学训练中理解疾病与患者，也用代码、生信和网页工具整理科研问题。这里会记录我正在做的工具、学习经历、阅读笔记和一些阶段性的个人感想。",
+  "avatar": "image/7ff6517f5a0479c2c2bfe0537a27c0ed.jpg",
+  "location": "China",
+  "github": {
+    "url": "https://github.com/jarxunlai",
+    "label": "GitHub"
+  },
+  "education": [
+    {
+      "period": "现在",
+      "title": "临床医学在研研究生",
+      "description": "围绕临床医学训练与科研问题积累方法，持续学习生物信息学、数据分析和可复用工具开发。"
+    },
+    {
+      "period": "持续学习",
+      "title": "科研、代码与生信实践",
+      "description": "把研究中反复出现的流程整理成脚本、文档和网页，让想法更容易被复现和继续推进。"
+    }
+  ],
+  "projects": [
+    {
+      "name": "netdoor",
+      "url": "https://github.com/jarxunlai",
+      "description": "jadelai.top 的个人主页与工具入口。"
+    },
+    {
+      "name": "Bioinformatics tools",
+      "url": "https://bca.jadelai.top",
+      "description": "用于生信分析和科研记录的网页工具集合。"
+    }
+  ]
+}

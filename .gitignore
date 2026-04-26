@@ -1,5 +1,41 @@
+# Local environments and package caches
 .pixi/
-.superpowers/
+.venv/
+venv/
+env/
+node_modules/
+
+# Python caches and test output
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend build/test output, if added later
+dist/
+build/
+coverage/
+.cache/
+.parcel-cache/
+.vite/
+
+# Local editor and agent state
 .codex
+.superpowers/
+.vscode/
+.idea/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Local draft/review notes that should not affect Cloudflare deploys
+dos/*-review.md
+
+# Keep these tracked for Cloudflare Pages Git deploys:
+# index.html, post.html, assets/, data/, content/, image/, pixi.toml, pixi.lock

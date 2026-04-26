@@ -3,25 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>jadelai.top 门户</title>
+    <title>jarxuanlai | jadelai.top</title>
+    <meta
+      name="description"
+      content="jarxuanlai 的个人主页，记录临床医学、科研、代码、生信和工具开发。"
+    />
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
     <main class="page-shell">
-      <section class="hero">
-        <p class="eyebrow">jadelai.top</p>
-        <h1>站点目录</h1>
-        <p class="hero-copy">
-          统一进入我当前维护的网页工具与内容站点，保持简单、清晰、可持续扩展。
-        </p>
+      <section class="hero" aria-labelledby="profile-title">
+        <div id="profile-root" aria-live="polite"></div>
       </section>
 
-      <section class="site-section" aria-labelledby="site-directory-title">
+      <section class="content-section" aria-labelledby="site-directory-title">
         <div class="section-header">
-          <h2 id="site-directory-title">可用站点</h2>
-          <p>新增站点时只需要维护一份配置文件。</p>
+          <p class="eyebrow">TOOLS</p>
+          <h2 id="site-directory-title">工具作品</h2>
+          <p>一些正在维护的网页工具、文档入口和数据页面。</p>
         </div>
-        <div id="site-list" class="site-list" aria-live="polite"></div>
+        <div id="site-list" class="item-list" aria-live="polite"></div>
+      </section>
+
+      <section class="content-section" aria-labelledby="education-title">
+        <div class="section-header">
+          <p class="eyebrow">LEARNING</p>
+          <h2 id="education-title">学习经历</h2>
+          <p>医学训练、科研实践和代码学习共同构成的路线。</p>
+        </div>
+        <div id="education-list" class="timeline-list" aria-live="polite"></div>
+      </section>
+
+      <section class="content-section" aria-labelledby="posts-title">
+        <div class="section-header">
+          <p class="eyebrow">NOTES</p>
+          <h2 id="posts-title">最近文章与感想</h2>
+          <p>记录学习过程中的问题、方法和一些个人观察。</p>
+        </div>
+        <div id="post-list" class="post-list" aria-live="polite"></div>
+      </section>
+
+      <section class="content-section" aria-labelledby="github-title">
+        <div class="section-header">
+          <p class="eyebrow">GITHUB</p>
+          <h2 id="github-title">GitHub 与项目</h2>
+          <p>精选仓库先用静态链接维护，后续可以再升级为自动同步。</p>
+        </div>
+        <div id="github-panel" aria-live="polite"></div>
       </section>
     </main>
 

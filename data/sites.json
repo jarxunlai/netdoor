@@ -9,12 +9,18 @@
     "id": "doc",
     "name": "DOC",
     "url": "https://doc.jadelai.top",
-    "description": "文档中心"
+    "description": "文档压缩"
   },
   {
     "id": "animal",
     "name": "ANIMAL",
     "url": "https://animal.jadelai.top",
     "description": "动物数据页"
+  },
+  {
+    "id": "library",
+    "name": "LitMonitor",
+    "url": "https://LitMonitor.jadelai.top",
+    "description": "文献获取"
   }
 ]

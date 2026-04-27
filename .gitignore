@@ -39,3 +39,10 @@ dos/*-review.md
 
 # Keep these tracked for Cloudflare Pages Git deploys:
 # index.html, post.html, assets/, data/, content/, image/, pixi.toml, pixi.lock
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
